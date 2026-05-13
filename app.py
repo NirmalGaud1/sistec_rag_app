@@ -100,7 +100,7 @@ Answer:
 
                 try:
 
-                    llm = genai.GenerativeModel("gemini-1.5-flash")
+                    llm = genai.GenerativeModel("gemini-2.0-flash")
 
                     with st.spinner("Gemini is thinking..."):
 
