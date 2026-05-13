@@ -87,7 +87,7 @@ if uploaded_file and st.session_state.gemini_key:
 
             # Call Gemini
             genai.configure(api_key=st.session_state.gemini_key)
-            llm = genai.GenerativeModel('gemini-1.5-pro')
+            llm = genai.GenerativeModel('gemini-3-flash')
 
             prompt = f"""Use only the following context to answer the question.
             
